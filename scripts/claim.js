@@ -30,9 +30,7 @@ module.exports = {
         .sendOperations([op], PrivateKey.from(wif))
         .then((res) => {
           console.log("You have successfully claimed a discounted account");
-          setInterval(() => {
-            claim(op);
-          }, 10000);
+          setTimeout(claim(op), 10000);
         })
         .catch((err) => {
           console.log("Error claiming account...");
