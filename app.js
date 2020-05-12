@@ -71,5 +71,5 @@ if(config.env.toLowerCase() == 'production'){
       res.end();
   }).listen(port_http);
 } else {
-	app.listen(5000)
+	app.listen(8880)
 }
