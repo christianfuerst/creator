@@ -8,7 +8,12 @@
   "claim": "false",
   "tip": "0.1",
   "blacklist": "true",
-  "rpc": "https://api.hive.blog",
+  "rpc": [
+    "https://api.hive.blog",
+    "https://api.hivekings.com",
+    "https://anyx.io",
+    "https://api.openhive.network"
+  ],
   "database_ip": "localhost",
   "database_user": "root",
   "database_password": "database_password",
